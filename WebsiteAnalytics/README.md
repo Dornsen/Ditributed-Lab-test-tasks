@@ -18,6 +18,6 @@ std::set_difference: O(P), P = number of pages per user.
 Overall complexity: about O(Nlog⁡M), which is efficient for this task.  
 
 Why is it efficient?  
-map and set provide fast lookups and automatic duplicate elimination.  
-Only unique pages per user are stored, saving memory.  
-Standard library set operations are optimized for speed.  
+    map and set provide fast lookups and automatic duplicate elimination.  
+    Only unique pages per user are stored, saving memory.  
+    Standard library set operations are optimized for speed.  
