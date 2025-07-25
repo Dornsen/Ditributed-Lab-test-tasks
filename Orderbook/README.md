@@ -1,8 +1,7 @@
 This is a console C++ application that implements a digital order book for trading UAH for USD. It supports account creation, login, adding buy/sell orders, and automatic order matching.
 
-How to run
-Compile: g++ main.cpp order.cpp usr.cpp -o start
-
+How to run \r\n
+Compile: g++ main.cpp order.cpp user.cpp -o start
 Run: ./start
 
 User interface:
@@ -11,8 +10,8 @@ User interface:
 3. Log out
 4. Exit
 
-Initial accounts:
-alice / pass123 - 1000 UAH, 500 USD
+Initial accounts: \r\n
+alice / pass123 - 1000 UAH, 500 USD \r\n
 bob / qwerty - 2000 UAH, 1000 USD
 
 Commands:
