@@ -1,17 +1,17 @@
 Maze Generator
 
-This console C++ program generates a 2D maze with these cell types:
-    S — Entrance (one, on outer border)
-    E — Exit (one, on outer border)
-    # — Wall (impassable)
-    SPACE — Road (walkable)
-    T — Treasure (optional, reachable)
+This console C++ program generates a 2D maze with these cell types:  
+    S — Entrance (one, on outer border)  
+    E — Exit (one, on outer border)  
+    # — Wall (impassable)  
+    SPACE — Road (walkable)  
+    T — Treasure (optional, reachable)  
 
-How to build and run
+How to build and run  
 Compile: g++ main.cpp -o start  
 
-Run the program:
-./maze_generator  
+Run the program:  
+./start  
 Enter maze size (width and height). If even, sizes auto-incremented by 1.
 
 Efficiency
