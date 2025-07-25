@@ -4,7 +4,7 @@ How to run
 Compile: g++ main.cpp order.cpp user.cpp -o start  
 Run: ./start  
 
-User interface:  
+User interface:
 1. Login  
 2. Add order  
 3. Log out  
