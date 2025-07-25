@@ -89,7 +89,7 @@ void bfs(const string &startLink) {
             newPage.link = l;
             newPage.path.push_back(l);
             queueLinks.push(newPage);
-            std::cout << "\tAdd new page: " << l << std::endl; 
+            //std::cout << "\tAdd new page: " << l << std::endl; 
         }
     
     }
