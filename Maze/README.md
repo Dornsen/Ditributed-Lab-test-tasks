@@ -10,10 +10,9 @@ This console C++ program generates a 2D maze with these cell types:
 How to build and run  
 Compile: g++ main.cpp -o start  
 
-Run the program:  
-./start  
+Run: ./start  
 Enter maze size (width and height). If even, sizes auto-incremented by 1.
 
-Efficiency
-    Time complexity: O(W×H) — every cell visited once.
+Efficiency:  
+    Time complexity: O(W×H) — every cell visited once.  
     Space complexity: O(W×H) for maze storage.
